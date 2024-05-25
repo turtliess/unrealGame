@@ -1,0 +1,43 @@
+body {
+    background-color: darkblue;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #0f0042;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;  
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h1:hover {
+    font-size: 35px;
+}
+
+section {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    display: flex;
+}
+
+article {
+    background-color: wheat;
+    padding: 50px 50px 50px 50px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    border: 5px double black;
+}
+
+article img {
+    border: 2px solid black;
+    height: 150px;
+}
